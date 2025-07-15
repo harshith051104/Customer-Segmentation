@@ -25,3 +25,13 @@ This project uses a Jupyter Notebook to perform the following steps:
 You need to have Python and Jupyter Notebook installed on your system. You can install the required libraries using pip:
 ```sh
 pip install pandas scikit-learn matplotlib seaborn
+```
+## Results
+
+The model's performance is evaluated using the Silhouette Score, which measures how similar an object is to its own cluster compared to other clusters. The Silhouette Coefficient for this model is **0.834**.
+
+### Customer Segments
+
+The scatter plot below visualizes the customer segments based on their annual income and spending score. The red dots represent the centroids of each cluster.
+
+<img width="1012" height="624" alt="image" src="https://github.com/user-attachments/assets/92828ded-28eb-4cf9-8ac3-0f3b69a3cd8c" />
